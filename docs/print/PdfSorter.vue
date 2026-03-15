@@ -55,6 +55,7 @@ async function run(mode: Mode) {
     downloadPdf(newPdfBytesA, addFileName(selectedFile.name, '_sorted_a'));
     downloadPdf(newPdfBytesB, addFileName(selectedFile.name, '_sorted_b'));
   }
+  fileInput.value!.value = "";
 }
 
 function fixPage(pdfDoc: PDFDocument, multiple: number) {

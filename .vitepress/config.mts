@@ -61,4 +61,5 @@ export default defineConfig({
       },
     },
   },
+  base: "/riso-pdf-print/",
 });
