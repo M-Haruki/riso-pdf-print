@@ -21,5 +21,5 @@
 印刷したいPDFを、リソグラフで印刷するまでの流れ
 
 - [PDFの並び替え・分割](/print/pdf-sort)
-- [USBメモリへのデータ注入](/print/usb-inject)
+- [USBメモリへの保存](/print/usb-save)
 - [リソグラフでの製版・印刷](/print/riso-print)

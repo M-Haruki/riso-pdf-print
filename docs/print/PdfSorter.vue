@@ -6,12 +6,12 @@
     <div @click="run('hisho1')" class="button">
       <span class="name">飛翔1</span>
       <span class="desc">冊子用に4ページごとに並び替える。2ページを1面に印刷する想定。</span>
-      <img src="./print-sort1.svg" alt="sort1" class="image">
+      <img src="./sort-sort1.svg" alt="sort1" class="image">
     </div>
     <div @click="run('hisho2')" class="button">
       <span class="name">飛翔2</span>
       <span class="desc">冊子用に4ページごとに並び替え、表・裏の2つのPDFに分ける。2ページを1面にリソ2台で印刷する想定。</span>
-      <img src="./print-sort2.svg" alt="sort2" class="image">
+      <img src="./sort-sort2.svg" alt="sort2" class="image">
     </div>
   </div>
 </template>

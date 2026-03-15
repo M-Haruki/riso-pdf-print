@@ -17,13 +17,6 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Examples",
-        items: [
-          { text: "Markdown Examples", link: "/markdown-examples" },
-          { text: "Runtime API Examples", link: "/api-examples" },
-        ],
-      },
-      {
         text: "はじめに",
         items: [{ text: "全体の流れ", link: "/intro/flow" }],
       },
@@ -41,14 +34,14 @@ export default defineConfig({
         text: "印刷",
         items: [
           { text: "PDFの並び替え・分割", link: "/print/pdf-sort" },
-          { text: "USBメモリへのデータ注入", link: "/print/usb-inject" },
+          { text: "USBメモリへの保存", link: "/print/usb-save" },
           { text: "リソグラフでの製版・印刷", link: "/print/riso-print" },
         ],
       },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/M-Haruki/riso-pdf-print" },
     ],
   },
   vite: {

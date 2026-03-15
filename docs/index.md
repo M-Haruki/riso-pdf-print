@@ -8,13 +8,10 @@ hero:
   tagline: リソグラフでPDFから直接印刷するための方法とツール群
   actions:
     - theme: brand
-      text: はじめる
+      text: 始める
       link: /intro/flow
     - theme: alt
-      text: 準備
-      link: /prepare/driver-setup
-    - theme: alt
-      text: 印刷
+      text: 並び替えツール
       link: /print/pdf-sort
 
 features:
