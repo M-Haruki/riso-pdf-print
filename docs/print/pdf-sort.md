@@ -42,7 +42,7 @@ PCで使えるPDFの結合ツールです。
 
 ### BentoPDF(PDF Multi Tool)
 
-ブラウザ上で使えるPDFの手動並び替え、分割ツールです。
+ブラウザ上で使えるPDFの手動並び替え、分割ツールです。  
 PDFファイルを開いて並び替えやページの削除ができます。  
 下記リンクから利用できます。  
 [BentoPDF PDF Multi Tool](https://bentopdf.com/pdf-multi-tool.html)
