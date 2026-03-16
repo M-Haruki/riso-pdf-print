@@ -13,7 +13,7 @@ export default defineConfig({
       { text: "はじめに", link: "/intro/flow" },
       { text: "準備", link: "/prepare/driver-setup" },
       { text: "印刷", link: "/print/pdf-sort" },
-      { text: "おわりに", link: "/outro/reset" },
+      { text: "おわりに", link: "/outro/restore" },
     ],
 
     sidebar: [
@@ -44,7 +44,7 @@ export default defineConfig({
       },
       {
         text: "おわりに",
-        items: [{ text: "USBメモリやPCをもとに戻す", link: "/outro/reset" }],
+        items: [{ text: "USBメモリやPCをもとに戻す", link: "/outro/restore" }],
       },
     ],
 
