@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import PdfSorter from "./PdfSorter.vue"
+  import PdfSorter from "./pdf-sort/PdfSorter.vue"
 </script>
 
 # PDFの並び替え・分割
@@ -14,9 +14,31 @@ PDFをリソグラフで印刷する際には、正しく印刷するためにPD
 
 ## PDF自動並び替えツール
 
-ファイルを選択後、モードをクリックして並び替え・ダウンロードできます。
+ファイルを選択後、モードをクリックして並び替え・ダウンロードできます。  
+並び替えの都合上、ページ数が4の倍数でない場合は自動的に白紙が挿入されます。
 <PdfSorter />
 
 ## その他のPDF編集
 
-必要なページの抜き出しや、手動での並び替えには、ブラウザで使える[BentoPDF PDF Multi Tool](https://bentopdf.com/pdf-multi-tool.html)や、PCで使える[CubePDF Utility](https://www.cube-soft.jp/cubepdfutility/)などのツールが便利です。
+PDFの結合、分割、手動並び替え等に使えるツールを紹介します。
+
+### CubePDF Utility
+
+PCで使えるPDFの手動並び替え、分割ツールです。 
+PDFファイルを開いて並び替えやページの削除ができます。  
+下記リンクからダウンロード・インストールできます。  
+[CubePDF Utility](https://www.cube-soft.jp/cubepdfutility/)
+
+### CubePDF Page
+
+PCで使えるPDFの結合ツールです。  
+複数のPDFファイルをドラッグ&ドロップすることで、1つのPDFフォルダにまとめられます。  
+下記リンクからダウンロード・インストールできます。  
+[CubePDF Page](https://www.cube-soft.jp/cubepdfpage/)
+
+### BentoPDF(PDF Multi Tool)
+
+ブラウザ上で使えるPDFの手動並び替え、分割ツールです。  
+PDFファイルを開いて並び替えやページの削除ができます。  
+下記リンクから利用できます。  
+[BentoPDF PDF Multi Tool](https://bentopdf.com/pdf-multi-tool.html)

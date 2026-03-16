@@ -23,3 +23,9 @@
 - [PDFの並び替え・分割](/print/pdf-sort)
 - [USBメモリへの保存](/print/usb-save)
 - [リソグラフでの製版・印刷](/print/riso-print)
+
+## おわりに
+
+すべての作業が終わった後に、PCやUSBメモリをもとに戻す方法
+
+- [USBメモリやPCをもとに戻す](/outro/restore)

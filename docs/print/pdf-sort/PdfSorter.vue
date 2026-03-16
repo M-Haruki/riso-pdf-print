@@ -10,7 +10,7 @@
     </div>
     <div @click="run('hisho2')" class="button">
       <span class="name">飛翔2</span>
-      <span class="desc">冊子用に4ページごとに並び替え、表・裏の2つのPDFに分ける。2ページを1面にリソ2台で印刷する想定。</span>
+      <span class="desc">冊子用に4ページごとに並び替え、表・裏の2つのPDFに分ける。2ページを1面にリソグラフ2台で印刷する想定。</span>
       <img src="./sort-sort2.svg" alt="sort2" class="image">
     </div>
   </div>
@@ -95,6 +95,8 @@ function downloadPdf(pdfBytes: Uint8Array | ArrayBuffer, fileName: string) {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+  // ダウンロード開始後に解放
+  setTimeout(() => URL.revokeObjectURL(url), 500);
 }
 </script>
 <style scoped>
