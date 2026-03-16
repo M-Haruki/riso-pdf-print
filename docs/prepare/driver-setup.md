@@ -11,13 +11,13 @@
 PCで、使いたい機種のプリンタードライバーとユーティリティーソフトをダウンロードしてください。  
 プリンタードライバーは機種ごとに異なり、ユーティリティーソフトは機種によらず共通です。
 
-### SF625Ⅱ(生徒会室の新しい方)
+### SF625Ⅱ
 
 下記のリンクより、プリンタードライバー`RISO Printer Driver for SF9II/SF6II/SF5II Series`と、ユーティリティーソフト`RISO Utility Software`をダウンロードしてください。
 
 [ダウンロード SF9II/SF6II/SF5II Series](https://www.riso.co.jp/dl/sf2_dvd119m_whql.html)
 
-### SD5430(生徒会室の古い方)
+### SD5430
 
 下記のリンクより、プリンタードライバー`RISO PRINTER DRIVER for SD5x30 Series`と、ユーティリティーソフト`RISO Utility Software`をダウンロードしてください。
 
