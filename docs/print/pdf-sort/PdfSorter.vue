@@ -95,6 +95,8 @@ function downloadPdf(pdfBytes: Uint8Array | ArrayBuffer, fileName: string) {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+  // ダウンロード開始後に解放
+  setTimeout(() => URL.revokeObjectURL(url), 500);
 }
 </script>
 <style scoped>
