@@ -12,8 +12,8 @@ hero:
       link: /intro/flow
     - theme: alt
       text: 並び替えツール
-      link: /print/pdf-sort
-
+      link: /print/pdf-sort#pdf自動並び替えツール
+      # pdf自動並び替えツールの「び」はURLエンコードの都合上U+3072,U+3099の「び」になる
 features:
   - title: 効率的
     details: 原稿を入れ替える必要がないので、効率的で早い印刷が可能です。
