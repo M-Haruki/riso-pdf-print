@@ -19,4 +19,28 @@ PDFをリソグラフで印刷する際には、正しく印刷するためにPD
 
 ## その他のPDF編集
 
-必要なページの抜き出しや、手動での並び替えには、ブラウザで使える[BentoPDF PDF Multi Tool](https://bentopdf.com/pdf-multi-tool.html)や、PCで使える[CubePDF Utility](https://www.cube-soft.jp/cubepdfutility/)などのツールが便利です。
+PDFの結合、分割、手動並び替え等に使えるツールを紹介します。
+
+::: tip
+ページ数の多いPDFを印刷しようとすると、1ページ目しかUSBに保存できない場合があります。  
+その場合は、PDFを細かく分割してください。
+::
+### CubePDF Utility
+
+PCで使えるPDFの手動並び替え、分割ツールです。 
+PDFファイルを開いて
+下記リンクからダウンロード・インストールできます。  
+[CubePDF Utility](https://www.cube-soft.jp/cubepdfutility/)
+
+### CubePDF Page
+
+PCで使えるPDFの結合ツールです。  
+複数のPDFファイルをドラッグ&ドロップすることで、1つのPDFフォルダにまとめられます。
+下記リンクからダウンロード・インストールできます。  
+[CubePDF Page](https://www.cube-soft.jp/cubepdfpage/)
+
+### BentoPDF(PDF Multi Tool)
+
+ブラウザ上で使えるPDFの手動並び替え、分割ツールです。  
+下記リンクから利用できます。  
+[BentoPDF PDF Multi Tool](https://bentopdf.com/pdf-multi-tool.html)
