@@ -10,15 +10,19 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: "トップ", link: "/" },
-      { text: "全体の流れ", link: "/intro/flow" },
+      { text: "はじめに", link: "/intro/flow" },
       { text: "準備", link: "/prepare/driver-setup" },
       { text: "印刷", link: "/print/pdf-sort" },
+      { text: "おわりに", link: "/outro/reset" },
     ],
 
     sidebar: [
       {
         text: "はじめに",
-        items: [{ text: "全体の流れ", link: "/intro/flow" }],
+        items: [
+          { text: "トップ", link: "/" },
+          { text: "全体の流れ", link: "/intro/flow" },
+        ],
       },
       {
         text: "準備",
@@ -37,6 +41,10 @@ export default defineConfig({
           { text: "USBメモリへの保存", link: "/print/usb-save" },
           { text: "リソグラフでの製版・印刷", link: "/print/riso-print" },
         ],
+      },
+      {
+        text: "おわりに",
+        items: [{ text: "USBメモリやPCをもとに戻す", link: "/outro/reset" }],
       },
     ],
 

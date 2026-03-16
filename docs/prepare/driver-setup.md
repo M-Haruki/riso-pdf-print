@@ -32,7 +32,7 @@ PCで、使いたい機種のプリンタードライバーとユーティリテ
 ダウンロードしたドライバーのZIPファイル(`sf2_dvd119m.zip`か`SD5x30_CD108f.zip`)を、右クリックして「すべて展開」を選択し、解凍してください。
 
 解凍してできたフォルダの中にある(2階層中にある)`Windows 64-bit`フォルダの中にある`Setup.exe`をダブルクリックして、インストーラーを起動してください。
-![Setup.exe](driver-setup_setupexe.png)
+![Setup.exe](./driver-setup/setupexe.png)
 ::: info
 現在ほとんどのPCが64ビットOSであるため、`Windows 64-bit`と書きましたが、32ビットOSを使用している場合は、`Windows 32-bit`のドライバーをインストールしてください。  
 わからなければ、上記の通り`Windows 64-bit`のドライバーをインストールしてみてください。
@@ -41,17 +41,17 @@ PCで、使いたい機種のプリンタードライバーとユーティリテ
 インストーラーに従って`OK`、`次へ`をクリックして進めます。
 
 `お使いのパソコンとプリンタを接続する方法を選択します。`の画面では、`USBメモリへ出力する`を選択して、`次へ`をクリックしてください。
-![接続方法選択](driver-setup_install-connection.png)
+![接続方法選択](./driver-setup/install-connection.png)
 
 `インストールするドライバを選択します`の画面では、使いたい機種`RISO SF 6x5ⅡSeries(USB)`か`RISO SD 5x30 Series(USBメモリ)`を選択して、`次へ`をクリックしてください。
-![ドライバ選択](driver-setup_install-driver.png)
+![ドライバ選択](./driver-setup/install-driver.png)
 
 `プリンタ名を入力します。`の画面では、デフォルトのまま、`次へ`をクリックしてください。
 
 `プリンタドライバのインストールの準備ができました。`の画面では、`インストール`をクリックしてください。
 
 `このデバイスソフトウェアをインストールしますか?`というアラートが表示されるので、`インストール`をクリックしてください。
-![セキュリティ](driver-setup_install-security.png)
+![セキュリティ](./driver-setup/install-security.png)
 
 完了した旨が表示されたら、`OK`をクリックしてください。
 画面に従い、`今すぐに再起動する`を選択してPCを再起動するか、後で自分で再起動してください。
@@ -61,7 +61,7 @@ PCで、使いたい機種のプリンタードライバーとユーティリテ
 ダウンロードしたドライバーのZIPファイル(`RISOUTSOFT_CD121M.zip`)を、右クリックして「すべて展開」を選択し、解凍してください。
 
 解凍してできたフォルダの中にある(2階層中にある)`Windows`フォルダの中にある`setup.exe`をダブルクリックして、インストーラーを起動してください。
-![setup.exe](driver-setup_tool-setupexe.png)
+![setup.exe](./driver-setup/tool-setupexe.png)
 
 インストーラーに従って`次へ`をクリックして進めます。
 
@@ -85,6 +85,6 @@ PCで、使いたい機種のプリンタードライバーとユーティリテ
 
 Portable版のRufus`rufus-0.00p.exe`をクリックしてダウンロードしてください。  
 `0.00`の部分は、ダウンロードする時点での最新バージョンの数字になります。
-![Rufus](driver-setup_rufus.png)
+![Rufus](./driver-setup/rufus.png)
 
 ダウンロードフォルダに`rufus-0.00p.exe`がダウンロードされていたら成功です。

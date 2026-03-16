@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import PdfSorter from "./PdfSorter.vue"
+  import PdfSorter from "./pdf-sort/PdfSorter.vue"
 </script>
 
 # PDFの並び替え・分割
