@@ -12,7 +12,7 @@ export default defineConfig({
       { text: "トップ", link: "/" },
       { text: "はじめに", link: "/intro/flow" },
       { text: "準備", link: "/prepare/driver-setup" },
-      { text: "印刷", link: "/print/pdf-marge" },
+      { text: "印刷", link: "/print/pdf-merge" },
       { text: "おわりに", link: "/outro/restore" },
     ],
 
@@ -41,7 +41,7 @@ export default defineConfig({
       {
         text: "印刷",
         items: [
-          { text: "PDFの結合・分割", link: "/print/pdf-marge" },
+          { text: "PDFの結合・分割", link: "/print/pdf-merge" },
           { text: "PDFの並び替え", link: "/print/pdf-sort" },
           { text: "USBメモリへの保存", link: "/print/usb-save" },
           { text: "リソグラフでの製版・印刷", link: "/print/riso-print" },

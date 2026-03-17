@@ -22,7 +22,7 @@
 
 印刷したいPDFを、リソグラフで印刷するまでの流れです。
 
-- [PDFの結合・分割](/print/pdf-marge)
+- [PDFの結合・分割](/print/pdf-merge)
 - [PDFの並び替え](/print/pdf-sort)
 - [USBメモリへの保存](/print/usb-save)
 - [リソグラフでの製版・印刷](/print/riso-print)
