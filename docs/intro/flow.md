@@ -7,25 +7,28 @@
 - リソグラフ
   - SF625Ⅱ
   - SD5430
-  - その他の機種も同様の方法で印刷できる可能性がある
+
+リソグラフについては、他の機種でも同様の方法で印刷できる場合がほとんどです。
 
 ## 準備
 
-使いたいPCとUSBメモリで、一度だけ行う必要がある準備
+使いたいPCとUSBメモリで、一度だけ行う必要がある準備です。
 
-- [ドライバ・ツールのインストール](/prepare/driver-setup)
+- [ドライバー等のインストール](/prepare/driver-setup)
+- [関連ツールのインストール](/prepare/tool-setup)
 - [USBメモリの準備](/prepare/usb-setup)
 
 ## 印刷
 
-印刷したいPDFを、リソグラフで印刷するまでの流れ
+印刷したいPDFを、リソグラフで印刷するまでの流れです。
 
-- [PDFの並び替え・分割](/print/pdf-sort)
+- [PDFの結合・分割](/print/pdf-merge)
+- [PDFの並び替え](/print/pdf-sort)
 - [USBメモリへの保存](/print/usb-save)
 - [リソグラフでの製版・印刷](/print/riso-print)
 
 ## おわりに
 
-すべての作業が終わった後に、PCやUSBメモリをもとに戻す方法
+すべての作業が終わった後に、PCやUSBメモリをもとに戻す方法です。
 
 - [USBメモリやPCをもとに戻す](/outro/restore)

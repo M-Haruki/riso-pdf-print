@@ -10,7 +10,7 @@
     </div>
     <div @click="run('hisho2')" class="button">
       <span class="name">飛翔2</span>
-      <span class="desc">冊子用に4ページごとに並び替え、表・裏の2つのPDFに分ける。2ページを1面にリソグラフ2台で印刷する想定。</span>
+      <span class="desc">冊子用に4ページごとに並び替え、表・裏の2つのPDFに分ける。2ページを1面に、表面と裏面で分けて2台のリソグラフで印刷する想定。</span>
       <img src="./sort-sort2.svg" alt="sort2" class="image">
     </div>
   </div>
